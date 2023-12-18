@@ -3,23 +3,33 @@
     height: 400px;
     color: rgb(255, 255, 255);
     font-family: 'Dancing Script', cursive;
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 700;
-    background-color:rgb(88, 90, 88);
+
+    background-image: linear-gradient(to top, #efb38b 0%, #ff6600 100%);
+    background-color: #B7E6D9;
+    background-repeat: no-repeat;
     margin-right: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    line-height: 8;
+  
     
     
     padding-top: 10px;
     margin: 50px 25px;
 }
+.box:hover{
+    font-size: 0px;
+    
+}
 
 .box:hover {
-    background-color:rgb(5, 239, 1);
     
+    background-image:url(https://64.media.tumblr.com/fdc497310dde96fcc5f96467822cf5b9/27f506537c244ed5-cc/s400x600/5190a261192983b006242b00052f65007fa5c83f.gif) ;
+    background-size: 399.9px;
     box-shadow: 20px 20px 15px 10px rgba(0, 0, 0, 0.4);
     transform: translate(0,0);
+    
       
 }
+
+
