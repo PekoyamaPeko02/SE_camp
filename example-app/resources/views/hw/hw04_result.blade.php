@@ -57,7 +57,7 @@
             <div class="bg" >
 
         <?php
-        for($i=1 ; $i<26 ; $i++){
+        for($i=1 ; $i<25 ; $i++){
             echo "{$mynumber} x {$i} =".($mynumber*$i)."<br/>";
 
         }
